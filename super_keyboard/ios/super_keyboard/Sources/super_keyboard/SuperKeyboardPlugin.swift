@@ -1,6 +1,7 @@
 import Flutter
 import UIKit
 
+@objc(SuperKeyboardPlugin)
 public class SuperKeyboardPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let plugin = SuperKeyboardPlugin(binaryMessenger: registrar.messenger())
